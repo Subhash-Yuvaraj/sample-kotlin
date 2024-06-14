@@ -75,7 +75,10 @@ fun main(args:Array<String>) {
     println(onelineMax(10,11))
     var amt=billAfterGST(interest = 50.0, a = 490)
     println("The bill : $amt")
-
+    var newnum : Int = 39;
+    var stringNum : String = newnum.toString();
+    var revnum : Int = stringNum.toInt();
+    println(++revnum)
 
 }
 @JvmOverloads
